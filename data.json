@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "roles": {
+      "admin": ["read", "write", "delete"],
+      "support": ["read", "write"],
+      "user": ["read"]
+    }
+  },
+  "users": {
+    "andy": {
+      "owner": [{"admin": [1, 4]},{"support": [2, 5]}, {"user": [3, 6]}]
+    },
+    "bob": {
+      "owner": [{"admin": [12, 65]},{"support": [17, 13]}, {"user": [75, 71]}]
+    }
+  }
+}
