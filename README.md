@@ -16,7 +16,7 @@ $ opa eval --data guard.rego --data data.json --input input.json 'data.simple.al
 - Response
   ```json
   {
-    "allow": "everything" | "nothing" | "something",
+    "allow": "everything | nothing | something",
     "allowIds": [13]
   }
   ```
